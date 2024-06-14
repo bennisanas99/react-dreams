@@ -1,0 +1,90 @@
+/*------------------------------------------------------------------------------Footer---------------------------------------------------------------------------*/
+/*#region Footer*/
+h1 {
+    display: flex;
+    flex-grow: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem !important;
+    line-height: 1 !important;
+    color: #fff;
+}
+
+.text {
+    margin-left: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+}
+
+.light-text {
+    margin-left: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #fff;
+}
+
+.header-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 14px;
+    background-color: #000;
+    height: 9%;
+}
+
+.site-title {
+    max-width: 50%;
+    height: 100%;
+}
+
+.site-title h1 {
+    margin: 0;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.powered-by {
+    margin: 0;
+    font-size: 14px;
+}
+
+.powered-by a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 50%;
+}
+
+.contact-info>div {
+    margin-left: 40px;
+}
+
+.contact-info h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-info p {
+    margin: 5px 0 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*#endregion Footer*/
