@@ -1,7 +1,7 @@
 import { Link, BrowserRouter as Router } from 'react-router-dom'
 import './style.css'
 
-function Card() {
+function Homepage() {
 
     return (
         <div style={{ height: '100vh' }}>
@@ -17,9 +17,7 @@ function Card() {
             <section className="header-section">
                 <div className="container">
                     <h1>Benvenuto su Dreams</h1>
-                    <p>Creiamo e gestiamo siti web e applicazioni, offrendo anche supporto per il marketing digitale e l'analisi
-                        dei
-                        dati.</p>
+                    <p>Creiamo e gestiamo siti web e applicazioni, offrendo anche supporto per il marketing digitale e l'analisi dei dati.</p>
                     <p>Lascia che il tuo business cresca online con soluzioni complete e personalizzate.</p>
                 </div>
             </section>
@@ -27,4 +25,4 @@ function Card() {
     )
 }
 
-export default Card
+export default Homepage

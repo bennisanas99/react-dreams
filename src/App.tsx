@@ -29,7 +29,7 @@ function App() {
       </p> */}
       <div>
         <Helmet>
-          <title>Dreams</title>
+          <title>Dreams | Creiamo insieme il sito dei tuoi sogni</title>
           <meta name="description" content="this site is for people that needs to create a website, a mobile app, manage website seo, manage google analytics and mental coaching using nlp" />
           <meta name="keywords" content="react, service, website creator, nlp, pnl, create a mobile app, manage website seo, manage google analytics" />
           <meta name="author" content="Anas Bennis" />
@@ -38,7 +38,7 @@ function App() {
           {/* <meta property="og:image" content="https://example.com/image.jpg" />
           <meta property="og:url" content="https://example.com/my-page" /> */}
           <meta name="twitter:title" content="Dreams" />
-          <meta name="twitter:description" content="Tthis site is for people that needs to create a website, a mobile app, manage website seo, manage google analytics and mental coaching using nlp" />
+          <meta name="twitter:description" content="This site is for people that needs to create a website, a mobile app, manage website seo, manage google analytics and mental coaching using nlp" />
           {/* <meta name="twitter:image" content="https://example.com/image.jpg" />
           <meta name="twitter:card" content="summary_large_image" /> */}
         </Helmet>
