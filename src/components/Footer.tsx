@@ -15,8 +15,8 @@ function Footer() {
                     </div>
                     <div className="contact">
                         <p className="text">Contact</p>
-                        <p className="light-text"><a style={{ textDecoration: 'underline' }} href="mailto:email@example.com">bennisanas39&#64;gmail.com</a><br />(+39) 3279157277
-                        </p>
+                        <p className="light-text"><a style={{ textDecoration: 'underline' }} href="mailto:bennisanas39@gmail.com">bennisanas39&#64;gmail.com</a></p>
+                        <p className='light-text'><a style={{ textDecoration: 'underline' }} href="tel:+393279157277">(+39) 3279157277</a></p>
                     </div>
                 </div>
             </header>

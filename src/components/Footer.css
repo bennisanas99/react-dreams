@@ -87,4 +87,41 @@ h1 {
     color: #fff;
 }
 
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 50%;
+}
+
 /*#endregion Footer*/
+@media (max-width: 456px) {
+    .contact p {
+        font-size: 0.85rem !important;
+        line-height: 1 !important;
+        margin-left: 11px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .light-text{
+
+    }
+
+    .location p {
+        font-size: 0.85rem !important;
+        line-height: 1 !important;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-footer {
+        display: flex;
+        justify-content: initial;
+    }
+}
