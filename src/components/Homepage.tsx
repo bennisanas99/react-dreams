@@ -4,7 +4,7 @@ import './style.css'
 function Homepage() {
 
     return (
-        <div style={{ height: '100vh' }}>
+        <div className='homepage-container'>
             <header>
                 <h1>Dreams</h1>
                 <nav>

@@ -1,4 +1,7 @@
 /*#region Services*/
+.services-container-page{
+
+}
 .services {
     font-size: 2rem !important;
     line-height: 0 !important;
@@ -134,7 +137,7 @@ p {
 }
 
 /*#endregion Services*/
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     
     .services-container{
         flex-direction: column;
@@ -142,7 +145,7 @@ p {
     }
 
     .cards{
-        width: 55%;
+        width: 56%;
     }
 
     .last-card{
@@ -160,7 +163,10 @@ p {
     }
 }
 
-@media (max-width: 456px) {
+@media (min-width: 456px) {
+    .services-container-page{
+        width: 116vw;
+    }
     
     .services-container{
         flex-direction: column;
@@ -186,7 +192,10 @@ p {
     }
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
+    .services-container-page{
+        width: 116vw;
+    }
     .cards{
         width: 83%;
     }

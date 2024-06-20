@@ -1,5 +1,8 @@
 /*-------------------------------------------------------------------------Homepage-----------------------------------------------------------*/
 /*#region Homepage*/
+.homepage-container {
+    height: 100vh;
+}
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -112,6 +115,10 @@ nav ul li a.button {
 
     header h1 {
         margin: 0.1rem;
+    }
+
+    .homepage-container {
+        width: 100vw;
     }
 }
 
