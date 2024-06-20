@@ -31,7 +31,7 @@ function App() {
         <Helmet>
           <title>Dreams | Creiamo insieme il sito dei tuoi sogni</title>
           <meta name="description" content="this site is for people that needs to create a website, a mobile app, manage website seo, manage google analytics and mental coaching using nlp" />
-          <meta name="keywords" content="react, service, website creator, nlp, pnl, create a mobile app, manage website seo, manage google analytics" />
+          <meta name="keywords" content="react, service, website creator, nlp, pnl, create a mobile app, manage website seo, manage google analytics, dreams, creiamo, insieme, sito, sogni, creazione sito dei sogni" />
           <meta name="author" content="Anas Bennis" />
           <meta property="og:title" content="Dreams" />
           <meta property="og:description" content="this site is for people that needs to create a website, a mobile app, manage website seo, manage google analytics and mental coaching using nlp" />
