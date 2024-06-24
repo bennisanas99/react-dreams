@@ -110,7 +110,7 @@ nav ul li a.button {
 @media (max-width: 480px) {
 
     nav ul li a.button {
-        padding: 8px 4px;
+        padding: 8px 2px;
     }
 
     header h1 {
