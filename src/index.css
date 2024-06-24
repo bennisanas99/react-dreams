@@ -14,7 +14,7 @@
    :root {
      display: flex;
      flex-direction: column;
-     width: 116vw;
+     /* width: 116vw; */
    }
  }
 

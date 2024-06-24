@@ -13,18 +13,18 @@ function Booking() {
                 <Link className="booking-back-home" to='/'><h1>Dreams</h1></Link>
             </header>
             <hr />
-            <div className="body">
-                <h1 className="richiedi-appuntamento">Richiedi un Appuntamento1</h1>
+            <div className="booking-body">
+                <h1 className="richiedi-appuntamento">Richiedi un Appuntamento</h1>
                 <div className="form-container">
-                    <form>
+                    <form action="https://formsubmit.co/bennisanas39@gmail.com" method="POST">
                         <div className="div-name-surname">
                             <div className="div-input">
                                 <label htmlFor="first-name">Nome</label>
-                                <input type="text" id="first-name" name="first-name" />
+                                <input type="text" id="first-name" name="name" />
                             </div>
                             <div className="div-input" >
                                 <label htmlFor="last-name">Cognome</label>
-                                <input type="text" id="last-name" name="last-name" />
+                                <input type="text" id="last-name" name="surname" />
                             </div>
                         </div>
                         <div className="div-name-surname">

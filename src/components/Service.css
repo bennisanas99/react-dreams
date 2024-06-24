@@ -137,7 +137,7 @@ p {
 }
 
 /*#endregion Services*/
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     
     .services-container{
         flex-direction: column;
@@ -163,10 +163,7 @@ p {
     }
 }
 
-@media (min-width: 456px) {
-    .services-container-page{
-        width: 116vw;
-    }
+@media (max-width: 480px) {
     
     .services-container{
         flex-direction: column;
@@ -192,7 +189,7 @@ p {
     }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     .services-container-page{
         width: 116vw;
     }
