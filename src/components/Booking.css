@@ -132,6 +132,7 @@ hr {
 
 h1 {
     flex-grow: 0 !important;
+    color: #000;
 }
 
 button{

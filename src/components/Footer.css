@@ -99,11 +99,11 @@ h1 {
 /*#endregion Footer*/
 @media (max-width: 480px) {
     .contact-info>div {
-        margin-left: 24px;
+        margin-left: 13px;
     }
 
     .contact{
-        margin-right: 94px;
+        margin-right: 96px;
     }
 
     .light-text{
@@ -118,7 +118,7 @@ h1 {
     }
 
     .contact p {
-        font-size: 0.85rem !important;
+        font-size: 0.80rem !important;
         line-height: 1 !important;
         margin-left: 11px;
     }
