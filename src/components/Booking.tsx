@@ -20,21 +20,21 @@ function Booking() {
                         <div className="div-name-surname">
                             <div className="div-input">
                                 <label htmlFor="first-name">Nome</label>
-                                <input type="text" id="first-name" name="name" />
+                                <input type="text" id="first-name" name="name" required/>
                             </div>
                             <div className="div-input" >
                                 <label htmlFor="last-name">Cognome</label>
-                                <input type="text" id="last-name" name="surname" />
+                                <input type="text" id="last-name" name="surname" required/>
                             </div>
                         </div>
                         <div className="div-name-surname">
                             <div className="div-input" >
                                 <label htmlFor="email">Email</label>
-                                <input type="email" id="email" name="email" />
+                                <input type="email" id="email" name="email" pattern='/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g' required/>
                             </div>
                             <div className="div-input" >
                                 <label htmlFor="phone">Telefono</label>
-                                <input type="tel" id="phone" name="phone" />
+                                <input type="tel" id="phone" name="phone" pattern='/^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/g' required/>
                             </div>
                         </div>
                         <div className="div-input">
